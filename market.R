@@ -22,4 +22,4 @@ library(ggplot2)
 plot1=ggplot(data1, aes(x = interest_rate, y = stock_price)) + 
   geom_point() +
   stat_smooth(method = "lm", col = "red")
-
+plot1
