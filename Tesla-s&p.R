@@ -1,4 +1,4 @@
-data1=read.csv("/Users/tianpujia/Desktop/Tesla-s&p.csv")
+data1=read.csv("https://github.com/tianpujia/RISK/blob/main/Tesla-s%26p.csv")
 lm1 = lm(formula=Tesla_return~sp_return, data = data1)
 summary(lm1)
 
